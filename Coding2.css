@@ -1,0 +1,63 @@
+.header{
+    text-align: center;
+    text-size-adjust: 30Px;
+    background-color: rgb(255, 104, 104);
+    height: 10%;
+    padding: 30px;
+    overflow-wrap: break-word;
+}
+.menu{
+    background-color: rgb(30, 52, 73);
+    color: crimson;
+    
+}
+
+nav{
+    text-align: center;
+   padding: 20px;
+}
+nav>a{
+    padding-left: 10%;
+    
+   color: green;
+}
+table,th,td{
+    border: 1px solid black;
+    
+}
+.table{
+    text-align: center;
+}
+.table>table{
+    width: 100%;
+    
+    
+}
+
+@media screen and (max-width: 480px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu a {
+        margin: 10px 0;
+    }
+    table{
+        font-size: 10px;
+        
+    }
+}
+@media screen and(max-width:768px)  {
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu a {
+        margin: 10px 0;
+    }
+    .table>table{
+        width: 100;
+        
+    }
+    
+}
